@@ -1,0 +1,35 @@
+Command name + Options + Arguments
+
+-> cat info.txt [command, argument]
+-> cat -n info.tx [command, option, argument]
+-< cat --number info.txt [command, option, argument]
+
+Options:
+
+-n is an option, it prints the content + corresponding line no (here -n in the short form)
+--number is the long form
+
+
+
+ls -> shows the content of the directory
+
+* we didn't need options or arguments for this command
+
+ncal -> shows the current month with date highlighted
+
+    September 2025
+Su     7 14 21 28
+Mo  1  8 15 22 29
+Tu  2  9 16 23 30
+We  3 10 17 24
+Th  4 11 18 25
+Fr  5 12 19 26
+Sa  6 13 20 27
+
+* we didn't need options or arguments for this command
+
+ncal 2025 [command, argument]
+ncal january 2025 [command, 2 argument]
+ncal janaury 2025 -w [command, 2 argument, option]
+ncal janaury 2025 -w -M [command, 2 argument, 2 option]
+ncal janaury 2025 -wM [command, 2 argument, 2 option (written together)]
