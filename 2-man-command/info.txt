@@ -1,0 +1,18 @@
+man -> command to find details about a command (man - manual pages)
+
+eg: man cat
+
+man cp
+
+NAME
+       cp - copy files and directories
+
+SYNOPSIS
+       cp [OPTION]... [-T] SOURCE DEST
+       cp [OPTION]... SOURCE... DIRECTORY
+       cp [OPTION]... -t DIRECTORY SOURCE...
+
+Here:
+    [] -> this is optional
+    ... -> can add multiple of them
+    No square bracket -> mandatory
