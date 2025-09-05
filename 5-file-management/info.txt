@@ -1,0 +1,19 @@
+mkdir - make directories
+
+    mkdir [OPTION]... DIRECTORY...
+    Create the DIRECTORY(ies), if they do not already exist.
+
+    mkdir -p animation/kids/20025
+        linux commands/animation/kids/20025
+
+touch - change file timestamps
+
+    touch [OPTION]... FILE...
+
+    Update the access and modification times of each FILE to the current time.
+    A  FILE argument that does not exist is created empty
+
+file — determine file type (based on the content - not based on file extension)
+
+    file info.txt
+    info.txt: Unicode text, UTF-8 text
