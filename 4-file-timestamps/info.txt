@@ -1,0 +1,6 @@
+ls -l
+    modification time -> updates when file content changes
+ls -lc
+    change time -> updates when file metadata (permissions, ownership, name, location, etc.) changes
+ls -lu
+    access time -> updates when file is accessed/read                                                |
