@@ -1,0 +1,29 @@
+rm - remove files or directories
+
+    rm [OPTION]... [FILE]...
+
+    rm hi.txt
+    rm -d hello (to remove empty directory)
+    rm -r hello (to remove directory and its content recursively)
+
+cp - copy files and directories
+
+    cp [OPTION]... [-T] SOURCE DEST
+    cp [OPTION]... SOURCE... DIRECTORY
+    cp [OPTION]... -t DIRECTORY SOURCE...
+
+    cp hello.txt hi.txt ../../documents/
+    cp -r hello/ hi/ (recursively copies hello into hi folder)
+    cp another.mp4 ../horror/another_2025.mp4 (copies another.mp4 into ../horror directory but renames it to another_2025.mp4)
+    cp another_2025.mp4 another_2025_5_star.mp4 (copies the same file into the same directory while renameing it to another_2025_5_star.mp4)
+    cp a.mp4 a (if a is a directory, it will copy a.mp4 to a folder, but if a is not a folder, it will create copy of a.mp4 into a - in the same directory)
+
+mv - move (rename) files
+
+    mv [OPTION]... [-T] SOURCE DEST
+    mv [OPTION]... SOURCE... DIRECTORY
+    mv [OPTION]... -t DIRECTORY SOURCE...
+
+    mv hello.txt hi.txt ../../documents/
+    mv -r hello/ hi/ (recursively moves hello into hi folder)
+    move another.mp4 ../horror/another_2025.mp4 (moves another.mp4 into ../horror directory but renames it to another_2025.mp4)
