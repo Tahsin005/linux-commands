@@ -1,0 +1,25 @@
+pwd -> print name of current/working directory
+
+    SYNOPSIS
+        pwd [OPTION]...
+
+ls -> list directory contents
+
+    SYNOPSIS
+        ls [OPTION]... [FILE]...
+
+    -a -> show all files-folders, including hidden folder
+    -l -> use a long listing format
+    -al -> hidden and long format
+    -alh -> read file size in long human readable format
+    -alht -> read file size in long human readable format (sorted based on date)
+    -r -> reverses order while sorting
+
+    Extra command:
+        ls Test/  ->  shows the resources in the Test folder
+
+cd -> change directory
+
+    / -> root directory
+    ~ -> home directory (where user resides)
+
