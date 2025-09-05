@@ -1,0 +1,16 @@
+ctrl + o -> write the current file to disk
+ctrl + x -> close the current file buffer and exit the editor
+ctrl + a -> go to the start of the line
+ctrl + e -> go to the end of the line
+ctrl + up-key -> go to the start of the text
+ctrl + down-key -> go to the end of the text
+
+ctrl + shift + c -> copy to global
+ctrl + shift + v -> paste to global
+ctrl + k -> cut a line / selected
+alt + ^ -> copy the line / selected
+ctrl + u -> paste
+alt + u -> undo
+
+ctrl + w -> search for a string or a regular expression
+ctrl + \ -> replace a string
