@@ -1,0 +1,22 @@
+cat - concatenate files and print on the standard output
+
+    cat [OPTION]... [FILE]...
+
+    cat a.txt b.txt > c.txt    (> overwrite)
+        concatenate files and rewrites/overwrites this in c.txt (if it exists or creates a new one)
+
+    cat a.txt >> c.txt       (>> append)
+
+    cat > c.txt       (overwrites the current content in c.txt)
+        outputs the values written in c.txt
+
+    cat >> c.txt      (appends to the c.txt)
+
+
+tac - concatenate and print files in reverse
+
+    tac [OPTION]... [FILE]...
+
+rev - reverse lines characterwise
+
+    rev [option] [file...]
