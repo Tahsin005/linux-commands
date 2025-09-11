@@ -1,0 +1,25 @@
+head - output the first part of files
+
+    head [OPTION]... [FILE]...
+
+tail - output the last part of files
+
+    tail [OPTION]... [FILE]...
+
+
+head cats.txt (will output first 10)
+tail cats.txt (will output last 10)
+
+head -n 1 cats.txt
+tail -f 1 cats.txt
+
+    -f, --follow[={name|descriptor}]
+        output appended data as the file grows;
+
+Another syntax:
+    head -1 cats.txt
+    tail -1 cats.txt
+
+less - opposite of more
+
+    outputs paginated data
