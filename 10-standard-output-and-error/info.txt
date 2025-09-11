@@ -1,0 +1,13 @@
+ls > a.txt
+
+    redirects the standard output to the file (even if it doesn't exists)
+
+    1> or >   -  overrides the current content (standard output)
+    1>> or 1>>  -  appends output to the existing content (standard output)
+    2>  -  overrides the current content even if the command returns error (standard error)
+    2>> -  appends output to the existing content even if the command returns error (standard error)
+
+
+    ls -z > output.tx 2> error.txt
+
+        if std output, then override the output.txt or override the error.txt
