@@ -1,0 +1,18 @@
+sort - sort lines of text files
+
+    sort [OPTION]... [FILE]...
+    sort [OPTION]... --files0-from=F
+
+    Write  sorted  concatenation of all FILE(s) to stan‐dard output.
+
+    sort -n number.txt (to sort number)
+
+
+    ls -lh > files (overrides the output to files file)
+
+    then to sort the file based on columnd (rather than 1st character)
+
+        sort -k5h files (based on 5th column, human readable)
+        sort -k5hr files (based on 5th column, human readable, reverse)
+
+    sort -u names (takes the unique values)
