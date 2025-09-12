@@ -1,0 +1,6 @@
+| -> pipe operator
+
+    a shell feature that connects the standard output (stdout) of one command to the standard input (stdin) of another command.
+
+    ls -lh | sort
+    ls -lh | sort -k5h
