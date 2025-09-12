@@ -1,0 +1,15 @@
+ctrl + a   -> starting of the line
+ctrl + e   -> ending of the line
+alt + f    -> skips word forward
+alt + b    -> skips word backward
+
+ctrl + r   -> search command history
+
+ctrl + k   -> clears text from cursor to line's end
+ctrl + u   -> deletes text from cursor to start of line in text
+ctrl + y   -> pastes cut / copied text
+
+alt + d    -> deletes character to the end of the current word
+ctrl + w   -> deletes the word before the cursor
+
+ctrl + d   -> closes the terminal
