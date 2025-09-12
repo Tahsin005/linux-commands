@@ -1,0 +1,9 @@
+echo $((2+3))
+echo $((2*3))
+echo $((2**3))
+echo $((3/2))
+echo $((12%5))
+
+$ means substitution — “evaluate this and substitute the result here.”
+
+In command shell, single parentheses means subshell. That's why we have to use double parentheses. (( expression )) is used for arithmetic evaluation.
